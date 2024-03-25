@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Ilistner.MyItestListner"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+		
+	<!-- <class name="com.in.ExcelRAutomationProjectBrowserLunch.RegisterUser"/>-->
+     <!-- <class name="com.in.ExcelRAutomationProjectBrowserLunch.loginuserwithcorrectmailpassword"/>-->
+     <!--  <class name="com.in.ExcelRAutomationProjectBrowserLunch.loginuserinvalidemailpasswod"/>-->
+      <!-- <class name="com.in.ExcelRAutomationProjectBrowserLunch.logoutuser"/>-->
+    
+      <class name="com.in.ExcelRAutomationProjectBrowserLunch.contactusform"/>
+       <class name="com.in.ExcelRAutomationProjectPages.testcaseverifyPage"/>
+      <class name="com.in.ExcelRAutomationProjectBrowserLunch.Productdetail"/>
+          <class name="com.in.ExcelRAutomationProjectBrowserLunch.SearchProduct"/>
+          <class name="com.in.ExcelRAutomationProjectBrowserLunch.Subscription"/>
+      <class name="com.in.ExcelRAutomationProjectBrowserLunch.CartSubscription"/> 
+         <!--  <class name="com.in.ExcelRAutomationProjectBrowserLunch.RegisterExisting"/>-->
+   
+     
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
